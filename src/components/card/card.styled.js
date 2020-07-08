@@ -67,3 +67,59 @@ export const StyledCardImage = styled.img`
     bottom: 0;
   }
 `;
+
+export const StyledCardBottom = styled.div`
+  display: block;
+  padding: 0.3rem 0;
+  color: #e9cc74;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  z-index: 2;
+`;
+
+export const StyledCardName = styled.p`
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(233, 204, 116, 0.1);
+  padding-bottom: 0.3rem;
+  overflow: hidden;
+  padding-top: 0.2rem;
+  margin-bottom: 0.3rem;
+  text-shadow: 2px 2px #111;
+`;
+
+export const StyledCardFeatures = styled.div`
+  ${({ border }) =>
+    border && "border-right: 2px solid rgba(233, 204, 116, 0.1)"};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+`;
+
+export const StyledCardFeature = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 0;
+`;
+
+export const StyledCardFeatureValue = styled.p`
+  margin-right: 0.3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px #111;
+`;
+
+export const StyledCardFeatureTitle = styled.p`
+  font-weight: 300;
+`;
+
+export const StyledCardColumns = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
