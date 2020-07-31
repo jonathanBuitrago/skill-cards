@@ -12,6 +12,7 @@ export const StyledCard = styled.div`
   z-index: 2;
   transition: 200ms ease-in;
   position: relative;
+  margin: 2rem;
 `;
 
 export const StyledCardHeader = styled.div`
@@ -40,6 +41,7 @@ export const StyledCardPosition = styled.div`
 export const StyledCardProject = styled.div`
   display: block;
   width: 2.1rem;
+  margin: 0 auto;
   height: 40px;
 `;
 
